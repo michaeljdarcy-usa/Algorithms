@@ -1,9 +1,13 @@
 #include "my_functions.h"
+#include <iostream>
 
 int main(int argc, char * argv[])
 {
-    std::vector<int> numbers = {3, 8, 4, 7, 2, 1, 7, 5};
+    std::vector<int> numbers = {2, 5, 6, 9, 4, 7, 3};
 
+    // Bubble Sort
+    printArray(numbers);
+    bubbleSort(numbers);
     printArray(numbers);
 
     return 0;
